@@ -8,12 +8,8 @@ const shallowRenderer = ReactTestUtils.createRenderer();
 describe('<Label />', () => {
 
   it(`It should set default props`, () => {
-    const defaultProps = {
-      children: undefined
-    };
-    shallowRenderer.render(
-      <Label />
-    );
+    const defaultProps = { children: undefined };
+    shallowRenderer.render( <Label /> );
     const result = shallowRenderer.getRenderOutput();
     expect( result.props ).toEqual( defaultProps );
   });

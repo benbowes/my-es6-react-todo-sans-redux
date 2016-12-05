@@ -1,13 +1,14 @@
 import React, { PropTypes } from 'react';
 
-const Button = ({ buttonTitle, type, classes, clickHandler, children }) =>
+const Button = ({ buttonTitle, type, classes, clickHandler, children }) => (
   <button
     title={buttonTitle || ''}
     type={type || 'button'}
     className={classes || 'sg-button'}
     onClick={clickHandler}>
     {children}
-  </button>;
+  </button>
+);
 
 Button.propTypes = {
   type: PropTypes.string,
