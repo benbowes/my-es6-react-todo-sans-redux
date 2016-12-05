@@ -7,13 +7,12 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /\.js?$/,
+      test: /app\/.*\.js?$/,
       exclude: ['node_modules'],
-      loader: 'babel-loader'
+      loader: 'babel'
     },
     {
-      test: /\.s?css$/,
-      include: /app/,
+      test: /app\/.*\.s?css$/,
       exclude: ['node_modules'],
       loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass'
     }]
