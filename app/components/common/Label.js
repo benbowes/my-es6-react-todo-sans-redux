@@ -5,7 +5,7 @@ const Label = ({ children }) => (
 );
 
 Label.propTypes = {
-  label: PropTypes.string
+  children: PropTypes.string
 };
 
 export default Label;

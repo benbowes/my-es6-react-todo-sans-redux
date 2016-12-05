@@ -13,7 +13,8 @@ const TodosHeader = ({ counter, children }) => (
 );
 
 TodosHeader.propTypes = {
-  counter: PropTypes.number
+  counter: PropTypes.number,
+  children: PropTypes.string
 };
 
 export default TodosHeader;
