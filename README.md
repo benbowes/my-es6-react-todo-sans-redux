@@ -1,12 +1,7 @@
+# Redux'ing without Redux - Todo example
 
-# My current ES6, React, Redux, SASS, Webpack, Eslint and Mocha+Expect unit test setup (May 2016)
-
-![Build status](https://travis-ci.org/benbowes/my-es6-react-redux-todo.svg)
-
-Made with lashings of joy.
-
-[Demo link](http://benbowes.github.io/my-es6-react-redux-todo/)
-
+Thanks to @mmollaverdi for his excellent article  [**"Redux'ing without Redux"**]( https://medium.com/rea-engineering/reduxing-without-redux-75dbd5c05336#.54eh9jnit)
+Cause sometimes you want to build sharable components with complex state.
 
 #### 1) Install the dependencies.
 
