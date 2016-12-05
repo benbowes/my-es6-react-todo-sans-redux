@@ -1,6 +1,6 @@
 # Redux'ing without Redux - Todo example
 
-Thanks to @mmollaverdi for his excellent article  [**"Redux'ing without Redux"**]( https://medium.com/rea-engineering/reduxing-without-redux-75dbd5c05336#.54eh9jnit)
+Thanks to [@mmollaverdi](https://github.com/mmollaverdi) for his excellent article  [**"Redux'ing without Redux"**]( https://medium.com/rea-engineering/reduxing-without-redux-75dbd5c05336#.54eh9jnit)
 Cause sometimes you want to build sharable components with complex state.
 
 #### 1) Install the dependencies.
